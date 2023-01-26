@@ -97,7 +97,7 @@ function drop(ev) {
         results[i].className =
           "border border-success text-light bg-success rounded mb-1 shadow text-center pt-4";
         results[i].style.height = "80px";
-        results[i].style.width = "150px";
+        results[i].style.width = "220px";
         results[i].innerHTML = "Matched";
       }
     }
