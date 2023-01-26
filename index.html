@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js"
+      integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css"
+      integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav
+      class="navbar text-light navbar-dark bg-dark mb-5 sticky-top text-center"
+    >
+      <div class="container" title="An Execise by Engr. Abrar Hussain Tunio">
+        <a class="navbar-brand text-center" href="https://time.org.pk"
+          >Match Images</a
+        >
+      </div>
+      <hr />
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col" id="device-name-list">
+          <div class="top text-center">Device Name</div>
+          <div class="text" id="text1"></div>
+          <div class="text" id="text2"></div>
+          <div class="text" id="text3"></div>
+          <div class="text" id="text4"></div>
+          <div class="text" id="text5"></div>
+        </div>
+        <div class="col" id="device-img-list">
+          <div class="top text-center">Drop Image</div>
+          <div
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            class="img"
+            id="img1"
+          ></div>
+          <div
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            class="img"
+            id="img2"
+          ></div>
+          <div
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            class="img"
+            id="img3"
+          ></div>
+          <div
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            class="img"
+            id="img4"
+          ></div>
+          <div
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            class="img"
+            id="img5"
+          ></div>
+        </div>
+        <div class="col">
+          <div class="top text-center">Devices</div>
+          <div class="init">
+            <img
+              draggable="true"
+              ondragstart="drag(event)"
+              src=""
+              alt=""
+              height="50"
+              id="init1"
+            />
+          </div>
+          <div class="init">
+            <img
+              draggable="true"
+              ondragstart="drag(event)"
+              src=""
+              alt=""
+              height="50"
+              id="init2"
+            />
+          </div>
+          <div class="init">
+            <img
+              draggable="true"
+              ondragstart="drag(event)"
+              src=""
+              alt=""
+              height="50"
+              id="init3"
+            />
+          </div>
+          <div class="init">
+            <img
+              draggable="true"
+              ondragstart="drag(event)"
+              src=""
+              alt=""
+              height="50"
+              id="init4"
+            />
+          </div>
+          <div class="init">
+            <img
+              draggable="true"
+              ondragstart="drag(event)"
+              src=""
+              alt=""
+              height="50"
+              id="init5"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="top text-center">Status</div>
+          <div class="result" id="result1"></div>
+          <div class="result" id="result2"></div>
+          <div class="result" id="result3"></div>
+          <div class="result" id="result4"></div>
+          <div class="result" id="result5"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
