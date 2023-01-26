@@ -12,19 +12,19 @@ newinit.forEach((element) => {
   element.className =
     "border border-success rounded mb-1 shadow text-center pt-4";
   element.style.height = "80px";
-  element.style.width = "200px";
+  element.style.width = "220px";
 });
 img.forEach((element) => {
   element.className =
     "border border-warning rounded mb-1 shadow text-center pt-4";
   element.style.height = "80px";
-  element.style.width = "200px";
+  element.style.width = "220px";
 });
 result.forEach((element) => {
   element.className =
     "border border-warning rounded mb-1 shadow text-center pt-4";
   element.style.height = "80px";
-  element.style.width = "200px";
+  element.style.width = "220px";
 });
 
 count = 0;
